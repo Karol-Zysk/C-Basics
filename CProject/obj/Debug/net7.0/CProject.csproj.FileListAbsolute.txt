@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\newApp\CProject\bin\Debug\net7.0\CProject.exe
+C:\Users\User\source\repos\newApp\CProject\bin\Debug\net7.0\CProject.deps.json
+C:\Users\User\source\repos\newApp\CProject\bin\Debug\net7.0\CProject.runtimeconfig.json
+C:\Users\User\source\repos\newApp\CProject\bin\Debug\net7.0\CProject.dll
+C:\Users\User\source\repos\newApp\CProject\bin\Debug\net7.0\CProject.pdb
+C:\Users\User\source\repos\newApp\CProject\obj\Debug\net7.0\CProject.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\newApp\CProject\obj\Debug\net7.0\CProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\newApp\CProject\obj\Debug\net7.0\CProject.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\newApp\CProject\obj\Debug\net7.0\CProject.AssemblyInfo.cs
+C:\Users\User\source\repos\newApp\CProject\obj\Debug\net7.0\CProject.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\newApp\CProject\obj\Debug\net7.0\CProject.dll
+C:\Users\User\source\repos\newApp\CProject\obj\Debug\net7.0\refint\CProject.dll
+C:\Users\User\source\repos\newApp\CProject\obj\Debug\net7.0\CProject.pdb
+C:\Users\User\source\repos\newApp\CProject\obj\Debug\net7.0\CProject.genruntimeconfig.cache
+C:\Users\User\source\repos\newApp\CProject\obj\Debug\net7.0\ref\CProject.dll
