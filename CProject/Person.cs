@@ -12,8 +12,12 @@ namespace CProject
         public string LastName;
 
         private DateTime dateOfBirth;
+        public static int Count = 0;
+
+        public string ContactNumber { get; set; }
 
         public Person(string firstName, string lastName) {
+            Count++;
             FirstName = firstName;
             LastName = lastName;
 
@@ -40,7 +44,8 @@ namespace CProject
 
         public void SayHi  ()
         {
-            Console.WriteLine($"My name is {FirstName}, my latname is {LastName} and dob is {dateOfBirth}");
+            
+            Console.WriteLine($"My name is {FirstName}, my latname is {LastName} and dob is {dateOfBirth} and Count = {Count}");
         }
         
     }
