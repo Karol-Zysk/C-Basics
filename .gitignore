@@ -1,0 +1,36 @@
+# Visual Studio files
+.vs/
+bin/
+obj/
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# NuGet packages #
+*.nupkg
+
+# User-specific files #
+*.user
+*.user.props
+*.usertasks
+
+# Build results #
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]in/
+
+# Resharper cache directory #
+_ReSharper.*
+
+# Visual Studio cache and log files #
+*.suo
+*.log
+*.vspscc
