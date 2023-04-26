@@ -1,41 +1,41 @@
 ﻿using System;
-using ClassLibrary1;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-
-namespace CProject
+namespace ToDoApp
 {
-    internal class Program
+    class Program
     {
-
         static void Main(string[] args)
         {
-            
-            Person Somebody = new Person("Karol", "Zyśk");
-            Person Somebody2 = new Person("Paweł", "Zyśk", new DateTime(2000,05,18));
-            Person Somebody3 = new Person("Kaja", "Zyśk", new DateTime(2020, 05, 18));
-            Person Somebody4 = new Person("Ania", "Zyśk", new DateTime(1996, 05, 18));
+            Console.WriteLine("Welcome to the ToDo Console App!");
+            IToDoManager manager = new ToDoManager(); // zmienione na ToDoManager
 
+            while (true)
+            {
+                Console.WriteLine("\nSelect operation: (1) Add task, (2) Display tasks, (3) Remove task, (4) Edit task, (5) Exit");
+                int choice = Convert.ToInt32(Console.ReadLine());
 
-            Somebody.SetDateOfBirth(new DateTime(1990, 05, 18));
-            DateTime dob = Somebody.GetDateOfBirth();
-            Somebody.SayHi();
-            Somebody2.SayHi();
-            Somebody3.SayHi();
-            Somebody4.SayHi();
-            Console.WriteLine(Person.Count);
-
-            
-            ExcelFile excel = new ExcelFile();
-
-            excel.FileName = "wydatki";
-            excel.GenerateReport();
-
-
+                switch (choice)
+                {
+                    case 1:
+                        manager.AddTask();
+                        break;
+                    case 2:
+                        manager.DisplayTasks();
+                        break;
+                    case 3:
+                        manager.RemoveTask();
+                        break;
+                    case 4:
+                        manager.EditTask();
+                        break;
+                    case 5:
+                        Console.WriteLine("Goodbye!");
+                        return;
+                    default:
+                        Console.WriteLine("Invalid choice!");
+                        break;
+                }
+            }
         }
-
     }
 }
